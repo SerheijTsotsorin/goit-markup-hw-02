@@ -3,7 +3,6 @@
 }
 
 body {
-  background-color: #e5e5e5;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -18,6 +17,7 @@ body {
 /*------header-------*/
 
 .logo-span-web {
+  font-family: 'Raleway', sans-serif;
   color: var(--accent-color);
   font-weight: bold;
   font-size: 26px;
@@ -27,6 +27,7 @@ body {
 }
 
 .logo {
+  font-family: 'Raleway', sans-serif;
   color: black;
   font-weight: bold;
   font-size: 26px;
@@ -74,9 +75,11 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  background: #2f303a;
 }
 
 .btn-hero {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -156,6 +159,10 @@ body {
 }
 
 /*-----footer----*/
+
+.footer {
+  background-color: #2f303a;
+}
 
 .main-contacts-list {
   font-style: normal;
